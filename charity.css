@@ -1,17 +1,36 @@
-li{
-  float: left;
-  list-style-type: none;
+body{
+  background-color: skyblue;
+}
+h1{
+  text-align: center;
 }
 img{
   width: 260px;
   height: 200px;
 }
-
-#left{
+p{
+  font-size: 20px;
+  clear: both;
+  margin-right: 80px;
+  margin-left: 38px;
+}
+/*backgroung color and centering of the header and footer*/
+.background-color{
+  background-color: lightseagreen;
+}
+#center{
+  /*display: table;
+*/  margin: 0 auto;
+}
+.pictures{
   float: left;
-  margin-left: 100px;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
-#right{
-  float:right;
-  margin-right: 100px;
+.header{
+  list-style-type: none;
+  margin-right: 30px;
+  display: inline-block;
 }
+
